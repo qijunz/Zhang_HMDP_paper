@@ -1,5 +1,5 @@
-# Program to run GWAS for Ath-HMDP metabolome phenotypes, including 4304 untargeted metabolites
-# USAGE: run_gwas_metabolome.py -i <input dir> -o <output dir> 
+# Program to run GWAS for Ath-HMDP phenotypes
+# USAGE: run_gwas.py -i <input dir> -o <output dir> 
 # prints to STDOUT
 
 import os
