@@ -1,0 +1,772 @@
+universe = vanilla
+
+executable = JLusis_Ath-HMDP_WGS_removeHostReads_20200824.sh
+arguments = $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasCHTCStaging == true)
+
+transfer_input_files = PROG_instl/bowtie2-2.3.4-linux-x86_64.zip, \
+                       PROG_instl/samtools_1.9.tar.gz, \
+                       PROG_instl/bedtools2-2.28.0.tar.gz, \
+                       PROG_instl/python-3.6.7-packages.tar.gz, \
+                       PROG_instl/python-3.6.7.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = JLusis_HMDP/remove_hostDNA/AA-0151.log
+error = JLusis_HMDP/remove_hostDNA/AA-0151.error
+output = JLusis_HMDP/remove_hostDNA/AA-0151.out
+
+sample = AA-0151
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0217.log
+error = JLusis_HMDP/remove_hostDNA/AA-0217.error
+output = JLusis_HMDP/remove_hostDNA/AA-0217.out
+
+sample = AA-0217
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0218.log
+error = JLusis_HMDP/remove_hostDNA/AA-0218.error
+output = JLusis_HMDP/remove_hostDNA/AA-0218.out
+
+sample = AA-0218
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0219.log
+error = JLusis_HMDP/remove_hostDNA/AA-0219.error
+output = JLusis_HMDP/remove_hostDNA/AA-0219.out
+
+sample = AA-0219
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0292.log
+error = JLusis_HMDP/remove_hostDNA/AA-0292.error
+output = JLusis_HMDP/remove_hostDNA/AA-0292.out
+
+sample = AA-0292
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0296.log
+error = JLusis_HMDP/remove_hostDNA/AA-0296.error
+output = JLusis_HMDP/remove_hostDNA/AA-0296.out
+
+sample = AA-0296
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0348.log
+error = JLusis_HMDP/remove_hostDNA/AA-0348.error
+output = JLusis_HMDP/remove_hostDNA/AA-0348.out
+
+sample = AA-0348
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0361.log
+error = JLusis_HMDP/remove_hostDNA/AA-0361.error
+output = JLusis_HMDP/remove_hostDNA/AA-0361.out
+
+sample = AA-0361
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0367.log
+error = JLusis_HMDP/remove_hostDNA/AA-0367.error
+output = JLusis_HMDP/remove_hostDNA/AA-0367.out
+
+sample = AA-0367
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0381.log
+error = JLusis_HMDP/remove_hostDNA/AA-0381.error
+output = JLusis_HMDP/remove_hostDNA/AA-0381.out
+
+sample = AA-0381
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0415.log
+error = JLusis_HMDP/remove_hostDNA/AA-0415.error
+output = JLusis_HMDP/remove_hostDNA/AA-0415.out
+
+sample = AA-0415
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0435.log
+error = JLusis_HMDP/remove_hostDNA/AA-0435.error
+output = JLusis_HMDP/remove_hostDNA/AA-0435.out
+
+sample = AA-0435
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0512.log
+error = JLusis_HMDP/remove_hostDNA/AA-0512.error
+output = JLusis_HMDP/remove_hostDNA/AA-0512.out
+
+sample = AA-0512
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0538.log
+error = JLusis_HMDP/remove_hostDNA/AA-0538.error
+output = JLusis_HMDP/remove_hostDNA/AA-0538.out
+
+sample = AA-0538
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0583.log
+error = JLusis_HMDP/remove_hostDNA/AA-0583.error
+output = JLusis_HMDP/remove_hostDNA/AA-0583.out
+
+sample = AA-0583
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0610.log
+error = JLusis_HMDP/remove_hostDNA/AA-0610.error
+output = JLusis_HMDP/remove_hostDNA/AA-0610.out
+
+sample = AA-0610
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0615.log
+error = JLusis_HMDP/remove_hostDNA/AA-0615.error
+output = JLusis_HMDP/remove_hostDNA/AA-0615.out
+
+sample = AA-0615
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0634.log
+error = JLusis_HMDP/remove_hostDNA/AA-0634.error
+output = JLusis_HMDP/remove_hostDNA/AA-0634.out
+
+sample = AA-0634
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0640.log
+error = JLusis_HMDP/remove_hostDNA/AA-0640.error
+output = JLusis_HMDP/remove_hostDNA/AA-0640.out
+
+sample = AA-0640
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0680.log
+error = JLusis_HMDP/remove_hostDNA/AA-0680.error
+output = JLusis_HMDP/remove_hostDNA/AA-0680.out
+
+sample = AA-0680
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0681.log
+error = JLusis_HMDP/remove_hostDNA/AA-0681.error
+output = JLusis_HMDP/remove_hostDNA/AA-0681.out
+
+sample = AA-0681
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0690.log
+error = JLusis_HMDP/remove_hostDNA/AA-0690.error
+output = JLusis_HMDP/remove_hostDNA/AA-0690.out
+
+sample = AA-0690
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0724.log
+error = JLusis_HMDP/remove_hostDNA/AA-0724.error
+output = JLusis_HMDP/remove_hostDNA/AA-0724.out
+
+sample = AA-0724
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0744.log
+error = JLusis_HMDP/remove_hostDNA/AA-0744.error
+output = JLusis_HMDP/remove_hostDNA/AA-0744.out
+
+sample = AA-0744
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0753.log
+error = JLusis_HMDP/remove_hostDNA/AA-0753.error
+output = JLusis_HMDP/remove_hostDNA/AA-0753.out
+
+sample = AA-0753
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0755.log
+error = JLusis_HMDP/remove_hostDNA/AA-0755.error
+output = JLusis_HMDP/remove_hostDNA/AA-0755.out
+
+sample = AA-0755
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0780.log
+error = JLusis_HMDP/remove_hostDNA/AA-0780.error
+output = JLusis_HMDP/remove_hostDNA/AA-0780.out
+
+sample = AA-0780
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0822.log
+error = JLusis_HMDP/remove_hostDNA/AA-0822.error
+output = JLusis_HMDP/remove_hostDNA/AA-0822.out
+
+sample = AA-0822
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0826.log
+error = JLusis_HMDP/remove_hostDNA/AA-0826.error
+output = JLusis_HMDP/remove_hostDNA/AA-0826.out
+
+sample = AA-0826
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0837.log
+error = JLusis_HMDP/remove_hostDNA/AA-0837.error
+output = JLusis_HMDP/remove_hostDNA/AA-0837.out
+
+sample = AA-0837
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0838.log
+error = JLusis_HMDP/remove_hostDNA/AA-0838.error
+output = JLusis_HMDP/remove_hostDNA/AA-0838.out
+
+sample = AA-0838
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0893.log
+error = JLusis_HMDP/remove_hostDNA/AA-0893.error
+output = JLusis_HMDP/remove_hostDNA/AA-0893.out
+
+sample = AA-0893
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0909.log
+error = JLusis_HMDP/remove_hostDNA/AA-0909.error
+output = JLusis_HMDP/remove_hostDNA/AA-0909.out
+
+sample = AA-0909
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0915.log
+error = JLusis_HMDP/remove_hostDNA/AA-0915.error
+output = JLusis_HMDP/remove_hostDNA/AA-0915.out
+
+sample = AA-0915
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0919.log
+error = JLusis_HMDP/remove_hostDNA/AA-0919.error
+output = JLusis_HMDP/remove_hostDNA/AA-0919.out
+
+sample = AA-0919
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0920.log
+error = JLusis_HMDP/remove_hostDNA/AA-0920.error
+output = JLusis_HMDP/remove_hostDNA/AA-0920.out
+
+sample = AA-0920
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0952.log
+error = JLusis_HMDP/remove_hostDNA/AA-0952.error
+output = JLusis_HMDP/remove_hostDNA/AA-0952.out
+
+sample = AA-0952
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0954.log
+error = JLusis_HMDP/remove_hostDNA/AA-0954.error
+output = JLusis_HMDP/remove_hostDNA/AA-0954.out
+
+sample = AA-0954
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0983.log
+error = JLusis_HMDP/remove_hostDNA/AA-0983.error
+output = JLusis_HMDP/remove_hostDNA/AA-0983.out
+
+sample = AA-0983
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0989.log
+error = JLusis_HMDP/remove_hostDNA/AA-0989.error
+output = JLusis_HMDP/remove_hostDNA/AA-0989.out
+
+sample = AA-0989
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-0990.log
+error = JLusis_HMDP/remove_hostDNA/AA-0990.error
+output = JLusis_HMDP/remove_hostDNA/AA-0990.out
+
+sample = AA-0990
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1051.log
+error = JLusis_HMDP/remove_hostDNA/AA-1051.error
+output = JLusis_HMDP/remove_hostDNA/AA-1051.out
+
+sample = AA-1051
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1052.log
+error = JLusis_HMDP/remove_hostDNA/AA-1052.error
+output = JLusis_HMDP/remove_hostDNA/AA-1052.out
+
+sample = AA-1052
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1105.log
+error = JLusis_HMDP/remove_hostDNA/AA-1105.error
+output = JLusis_HMDP/remove_hostDNA/AA-1105.out
+
+sample = AA-1105
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1106.log
+error = JLusis_HMDP/remove_hostDNA/AA-1106.error
+output = JLusis_HMDP/remove_hostDNA/AA-1106.out
+
+sample = AA-1106
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1297.log
+error = JLusis_HMDP/remove_hostDNA/AA-1297.error
+output = JLusis_HMDP/remove_hostDNA/AA-1297.out
+
+sample = AA-1297
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1299.log
+error = JLusis_HMDP/remove_hostDNA/AA-1299.error
+output = JLusis_HMDP/remove_hostDNA/AA-1299.out
+
+sample = AA-1299
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1310.log
+error = JLusis_HMDP/remove_hostDNA/AA-1310.error
+output = JLusis_HMDP/remove_hostDNA/AA-1310.out
+
+sample = AA-1310
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1325.log
+error = JLusis_HMDP/remove_hostDNA/AA-1325.error
+output = JLusis_HMDP/remove_hostDNA/AA-1325.out
+
+sample = AA-1325
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1406.log
+error = JLusis_HMDP/remove_hostDNA/AA-1406.error
+output = JLusis_HMDP/remove_hostDNA/AA-1406.out
+
+sample = AA-1406
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1407.log
+error = JLusis_HMDP/remove_hostDNA/AA-1407.error
+output = JLusis_HMDP/remove_hostDNA/AA-1407.out
+
+sample = AA-1407
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1499.log
+error = JLusis_HMDP/remove_hostDNA/AA-1499.error
+output = JLusis_HMDP/remove_hostDNA/AA-1499.out
+
+sample = AA-1499
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1604.log
+error = JLusis_HMDP/remove_hostDNA/AA-1604.error
+output = JLusis_HMDP/remove_hostDNA/AA-1604.out
+
+sample = AA-1604
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1612.log
+error = JLusis_HMDP/remove_hostDNA/AA-1612.error
+output = JLusis_HMDP/remove_hostDNA/AA-1612.out
+
+sample = AA-1612
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1613.log
+error = JLusis_HMDP/remove_hostDNA/AA-1613.error
+output = JLusis_HMDP/remove_hostDNA/AA-1613.out
+
+sample = AA-1613
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1630.log
+error = JLusis_HMDP/remove_hostDNA/AA-1630.error
+output = JLusis_HMDP/remove_hostDNA/AA-1630.out
+
+sample = AA-1630
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1631.log
+error = JLusis_HMDP/remove_hostDNA/AA-1631.error
+output = JLusis_HMDP/remove_hostDNA/AA-1631.out
+
+sample = AA-1631
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/AA-1679.log
+error = JLusis_HMDP/remove_hostDNA/AA-1679.error
+output = JLusis_HMDP/remove_hostDNA/AA-1679.out
+
+sample = AA-1679
+
+request_memory = 16GB
+request_disk = 64GB
+request_cpus = 4
+
+queue
+
+

@@ -1,0 +1,824 @@
+universe = vanilla
+
+executable = JLusis_Ath-HMDP_WGS_trimmomatic_20200824.sh
+arguments = $(sample) $(sample_long)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasCHTCStaging == true)
+
+transfer_input_files = PROG_instl/Trimmomatic-0.39.zip, PROG_instl/jre-8u231-linux-x64.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = JLusis_HMDP/trim/AA-0151.log
+error = JLusis_HMDP/trim/AA-0151.error
+output = JLusis_HMDP/trim/AA-0151.out
+
+sample = AA-0151
+sample_long = AA-0151_S40
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0217.log
+error = JLusis_HMDP/trim/AA-0217.error
+output = JLusis_HMDP/trim/AA-0217.out
+
+sample = AA-0217
+sample_long = AA-0217_S41
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0218.log
+error = JLusis_HMDP/trim/AA-0218.error
+output = JLusis_HMDP/trim/AA-0218.out
+
+sample = AA-0218
+sample_long = AA-0218_S42
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0219.log
+error = JLusis_HMDP/trim/AA-0219.error
+output = JLusis_HMDP/trim/AA-0219.out
+
+sample = AA-0219
+sample_long = AA-0219_S43
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0292.log
+error = JLusis_HMDP/trim/AA-0292.error
+output = JLusis_HMDP/trim/AA-0292.out
+
+sample = AA-0292
+sample_long = AA-0292_S44
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0296.log
+error = JLusis_HMDP/trim/AA-0296.error
+output = JLusis_HMDP/trim/AA-0296.out
+
+sample = AA-0296
+sample_long = AA-0296_S45
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0348.log
+error = JLusis_HMDP/trim/AA-0348.error
+output = JLusis_HMDP/trim/AA-0348.out
+
+sample = AA-0348
+sample_long = AA-0348_S46
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0361.log
+error = JLusis_HMDP/trim/AA-0361.error
+output = JLusis_HMDP/trim/AA-0361.out
+
+sample = AA-0361
+sample_long = AA-0361_S47
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0367.log
+error = JLusis_HMDP/trim/AA-0367.error
+output = JLusis_HMDP/trim/AA-0367.out
+
+sample = AA-0367
+sample_long = AA-0367_S48
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0381.log
+error = JLusis_HMDP/trim/AA-0381.error
+output = JLusis_HMDP/trim/AA-0381.out
+
+sample = AA-0381
+sample_long = AA-0381_S49
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0415.log
+error = JLusis_HMDP/trim/AA-0415.error
+output = JLusis_HMDP/trim/AA-0415.out
+
+sample = AA-0415
+sample_long = AA-0415_S50
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0435.log
+error = JLusis_HMDP/trim/AA-0435.error
+output = JLusis_HMDP/trim/AA-0435.out
+
+sample = AA-0435
+sample_long = AA-0435_S51
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0512.log
+error = JLusis_HMDP/trim/AA-0512.error
+output = JLusis_HMDP/trim/AA-0512.out
+
+sample = AA-0512
+sample_long = AA-0512_S52
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0538.log
+error = JLusis_HMDP/trim/AA-0538.error
+output = JLusis_HMDP/trim/AA-0538.out
+
+sample = AA-0538
+sample_long = AA-0538_S53
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0583.log
+error = JLusis_HMDP/trim/AA-0583.error
+output = JLusis_HMDP/trim/AA-0583.out
+
+sample = AA-0583
+sample_long = AA-0583_S54
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0610.log
+error = JLusis_HMDP/trim/AA-0610.error
+output = JLusis_HMDP/trim/AA-0610.out
+
+sample = AA-0610
+sample_long = AA-0610_S55
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0615.log
+error = JLusis_HMDP/trim/AA-0615.error
+output = JLusis_HMDP/trim/AA-0615.out
+
+sample = AA-0615
+sample_long = AA-0615_S56
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0634.log
+error = JLusis_HMDP/trim/AA-0634.error
+output = JLusis_HMDP/trim/AA-0634.out
+
+sample = AA-0634
+sample_long = AA-0634_S57
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0640.log
+error = JLusis_HMDP/trim/AA-0640.error
+output = JLusis_HMDP/trim/AA-0640.out
+
+sample = AA-0640
+sample_long = AA-0640_S58
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0680.log
+error = JLusis_HMDP/trim/AA-0680.error
+output = JLusis_HMDP/trim/AA-0680.out
+
+sample = AA-0680
+sample_long = AA-0680_S59
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0681.log
+error = JLusis_HMDP/trim/AA-0681.error
+output = JLusis_HMDP/trim/AA-0681.out
+
+sample = AA-0681
+sample_long = AA-0681_S60
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0690.log
+error = JLusis_HMDP/trim/AA-0690.error
+output = JLusis_HMDP/trim/AA-0690.out
+
+sample = AA-0690
+sample_long = AA-0690_S61
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0724.log
+error = JLusis_HMDP/trim/AA-0724.error
+output = JLusis_HMDP/trim/AA-0724.out
+
+sample = AA-0724
+sample_long = AA-0724_S62
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0744.log
+error = JLusis_HMDP/trim/AA-0744.error
+output = JLusis_HMDP/trim/AA-0744.out
+
+sample = AA-0744
+sample_long = AA-0744_S63
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0753.log
+error = JLusis_HMDP/trim/AA-0753.error
+output = JLusis_HMDP/trim/AA-0753.out
+
+sample = AA-0753
+sample_long = AA-0753_S64
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0755.log
+error = JLusis_HMDP/trim/AA-0755.error
+output = JLusis_HMDP/trim/AA-0755.out
+
+sample = AA-0755
+sample_long = AA-0755_S65
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0780.log
+error = JLusis_HMDP/trim/AA-0780.error
+output = JLusis_HMDP/trim/AA-0780.out
+
+sample = AA-0780
+sample_long = AA-0780_S66
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0822.log
+error = JLusis_HMDP/trim/AA-0822.error
+output = JLusis_HMDP/trim/AA-0822.out
+
+sample = AA-0822
+sample_long = AA-0822_S67
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0826.log
+error = JLusis_HMDP/trim/AA-0826.error
+output = JLusis_HMDP/trim/AA-0826.out
+
+sample = AA-0826
+sample_long = AA-0826_S68
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0837.log
+error = JLusis_HMDP/trim/AA-0837.error
+output = JLusis_HMDP/trim/AA-0837.out
+
+sample = AA-0837
+sample_long = AA-0837_S69
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0838.log
+error = JLusis_HMDP/trim/AA-0838.error
+output = JLusis_HMDP/trim/AA-0838.out
+
+sample = AA-0838
+sample_long = AA-0838_S70
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0893.log
+error = JLusis_HMDP/trim/AA-0893.error
+output = JLusis_HMDP/trim/AA-0893.out
+
+sample = AA-0893
+sample_long = AA-0893_S71
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0909.log
+error = JLusis_HMDP/trim/AA-0909.error
+output = JLusis_HMDP/trim/AA-0909.out
+
+sample = AA-0909
+sample_long = AA-0909_S72
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0915.log
+error = JLusis_HMDP/trim/AA-0915.error
+output = JLusis_HMDP/trim/AA-0915.out
+
+sample = AA-0915
+sample_long = AA-0915_S73
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0919.log
+error = JLusis_HMDP/trim/AA-0919.error
+output = JLusis_HMDP/trim/AA-0919.out
+
+sample = AA-0919
+sample_long = AA-0919_S74
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0920.log
+error = JLusis_HMDP/trim/AA-0920.error
+output = JLusis_HMDP/trim/AA-0920.out
+
+sample = AA-0920
+sample_long = AA-0920_S75
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0952.log
+error = JLusis_HMDP/trim/AA-0952.error
+output = JLusis_HMDP/trim/AA-0952.out
+
+sample = AA-0952
+sample_long = AA-0952_S76
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0954.log
+error = JLusis_HMDP/trim/AA-0954.error
+output = JLusis_HMDP/trim/AA-0954.out
+
+sample = AA-0954
+sample_long = AA-0954_S77
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0983.log
+error = JLusis_HMDP/trim/AA-0983.error
+output = JLusis_HMDP/trim/AA-0983.out
+
+sample = AA-0983
+sample_long = AA-0983_S78
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0989.log
+error = JLusis_HMDP/trim/AA-0989.error
+output = JLusis_HMDP/trim/AA-0989.out
+
+sample = AA-0989
+sample_long = AA-0989_S79
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-0990.log
+error = JLusis_HMDP/trim/AA-0990.error
+output = JLusis_HMDP/trim/AA-0990.out
+
+sample = AA-0990
+sample_long = AA-0990_S80
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1051.log
+error = JLusis_HMDP/trim/AA-1051.error
+output = JLusis_HMDP/trim/AA-1051.out
+
+sample = AA-1051
+sample_long = AA-1051_S81
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1052.log
+error = JLusis_HMDP/trim/AA-1052.error
+output = JLusis_HMDP/trim/AA-1052.out
+
+sample = AA-1052
+sample_long = AA-1052_S82
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1105.log
+error = JLusis_HMDP/trim/AA-1105.error
+output = JLusis_HMDP/trim/AA-1105.out
+
+sample = AA-1105
+sample_long = AA-1105_S83
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1106.log
+error = JLusis_HMDP/trim/AA-1106.error
+output = JLusis_HMDP/trim/AA-1106.out
+
+sample = AA-1106
+sample_long = AA-1106_S84
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1297.log
+error = JLusis_HMDP/trim/AA-1297.error
+output = JLusis_HMDP/trim/AA-1297.out
+
+sample = AA-1297
+sample_long = AA-1297_S85
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1299.log
+error = JLusis_HMDP/trim/AA-1299.error
+output = JLusis_HMDP/trim/AA-1299.out
+
+sample = AA-1299
+sample_long = AA-1299_S86
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1310.log
+error = JLusis_HMDP/trim/AA-1310.error
+output = JLusis_HMDP/trim/AA-1310.out
+
+sample = AA-1310
+sample_long = AA-1310_S87
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1325.log
+error = JLusis_HMDP/trim/AA-1325.error
+output = JLusis_HMDP/trim/AA-1325.out
+
+sample = AA-1325
+sample_long = AA-1325_S88
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1406.log
+error = JLusis_HMDP/trim/AA-1406.error
+output = JLusis_HMDP/trim/AA-1406.out
+
+sample = AA-1406
+sample_long = AA-1406_S89
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1407.log
+error = JLusis_HMDP/trim/AA-1407.error
+output = JLusis_HMDP/trim/AA-1407.out
+
+sample = AA-1407
+sample_long = AA-1407_S90
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1499.log
+error = JLusis_HMDP/trim/AA-1499.error
+output = JLusis_HMDP/trim/AA-1499.out
+
+sample = AA-1499
+sample_long = AA-1499_S91
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1604.log
+error = JLusis_HMDP/trim/AA-1604.error
+output = JLusis_HMDP/trim/AA-1604.out
+
+sample = AA-1604
+sample_long = AA-1604_S92
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1612.log
+error = JLusis_HMDP/trim/AA-1612.error
+output = JLusis_HMDP/trim/AA-1612.out
+
+sample = AA-1612
+sample_long = AA-1612_S93
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1613.log
+error = JLusis_HMDP/trim/AA-1613.error
+output = JLusis_HMDP/trim/AA-1613.out
+
+sample = AA-1613
+sample_long = AA-1613_S94
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1630.log
+error = JLusis_HMDP/trim/AA-1630.error
+output = JLusis_HMDP/trim/AA-1630.out
+
+sample = AA-1630
+sample_long = AA-1630_S95
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1631.log
+error = JLusis_HMDP/trim/AA-1631.error
+output = JLusis_HMDP/trim/AA-1631.out
+
+sample = AA-1631
+sample_long = AA-1631_S96
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trim/AA-1679.log
+error = JLusis_HMDP/trim/AA-1679.error
+output = JLusis_HMDP/trim/AA-1679.out
+
+sample = AA-1679
+sample_long = AA-1679_S97
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue

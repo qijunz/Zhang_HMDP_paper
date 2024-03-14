@@ -1,0 +1,175 @@
+universe = vanilla
+
+executable = JLusis_Ath-HMDP_WGS_trimmomatic_concatLanes.sh
+arguments = $(lane1) $(lane2) $(lane3) $(lane4) $(lane5) $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasGluster == true)
+
+transfer_input_files = PROG_instl/Trimmomatic-0.39.zip, PROG_instl/jre-8u231-linux-x64.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = JLusis_HMDP/trimAndConcat/HMDP_1.log
+error = JLusis_HMDP/trimAndConcat/HMDP_1.error
+output = JLusis_HMDP/trimAndConcat/HMDP_1.out
+
+lane1 = S110_L004
+lane2 = S71_L001
+lane3 = S71_L002
+lane4 = S71_L003
+lane5 = S71_L004
+sample = HMDP_1
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trimAndConcat/HMDP_2.log
+error = JLusis_HMDP/trimAndConcat/HMDP_2.error
+output = JLusis_HMDP/trimAndConcat/HMDP_2.out
+
+lane1 = S182_L001
+lane2 = S182_L002
+lane3 = S182_L003
+lane4 = S182_L004
+lane5 = S221_L004
+sample = HMDP_2
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trimAndConcat/HMDP_3.log
+error = JLusis_HMDP/trimAndConcat/HMDP_3.error
+output = JLusis_HMDP/trimAndConcat/HMDP_3.out
+
+lane1 = S292_L001
+lane2 = S292_L002
+lane3 = S292_L003
+lane4 = S292_L004
+lane5 = S331_L004
+sample = HMDP_3
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trimAndConcat/HMDP_4.log
+error = JLusis_HMDP/trimAndConcat/HMDP_4.error
+output = JLusis_HMDP/trimAndConcat/HMDP_4.out
+
+lane1 = S303_L001
+lane2 = S303_L002
+lane3 = S303_L003
+lane4 = S303_L004
+lane5 = S342_L004
+sample = HMDP_4
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trimAndConcat/HMDP_5.log
+error = JLusis_HMDP/trimAndConcat/HMDP_5.error
+output = JLusis_HMDP/trimAndConcat/HMDP_5.out
+
+lane1 = S314_L001
+lane2 = S314_L002
+lane3 = S314_L003
+lane4 = S314_L004
+lane5 = S353_L004
+sample = HMDP_5
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trimAndConcat/HMDP_6.log
+error = JLusis_HMDP/trimAndConcat/HMDP_6.error
+output = JLusis_HMDP/trimAndConcat/HMDP_6.out
+
+lane1 = S325_L001
+lane2 = S325_L002
+lane3 = S325_L003
+lane4 = S325_L004
+lane5 = S364_L004
+sample = HMDP_6
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trimAndConcat/HMDP_7.log
+error = JLusis_HMDP/trimAndConcat/HMDP_7.error
+output = JLusis_HMDP/trimAndConcat/HMDP_7.out
+
+lane1 = S336_L001
+lane2 = S336_L002
+lane3 = S336_L003
+lane4 = S336_L004
+lane5 = S375_L004
+sample = HMDP_7
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trimAndConcat/HMDP_8.log
+error = JLusis_HMDP/trimAndConcat/HMDP_8.error
+output = JLusis_HMDP/trimAndConcat/HMDP_8.out
+
+lane1 = S347_L001
+lane2 = S347_L002
+lane3 = S347_L003
+lane4 = S347_L004
+lane5 = S386_L004
+sample = HMDP_8
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/trimAndConcat/HMDP_9.log
+error = JLusis_HMDP/trimAndConcat/HMDP_9.error
+output = JLusis_HMDP/trimAndConcat/HMDP_9.out
+
+lane1 = S358_L001
+lane2 = S358_L002
+lane3 = S358_L003
+lane4 = S358_L004
+lane5 = S397_L004
+sample = HMDP_9
+
+request_memory = 8GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+

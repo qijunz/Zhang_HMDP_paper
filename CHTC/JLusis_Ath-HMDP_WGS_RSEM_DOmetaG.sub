@@ -1,0 +1,3864 @@
+universe = vanilla
+
+executable = JLusis_Ath-HMDP_WGS_RSEM_DOmetaG.sh
+arguments = $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasCHTCStaging == true)
+
+transfer_input_files = PROG_instl/bowtie2-2.3.4-linux-x86_64.zip, \
+                       PROG_instl/RSEM-1.3.1.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP002.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP002.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP002.out
+
+sample = HMDP002
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP003.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP003.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP003.out
+
+sample = HMDP003
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP004.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP004.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP004.out
+
+sample = HMDP004
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP005.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP005.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP005.out
+
+sample = HMDP005
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP006.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP006.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP006.out
+
+sample = HMDP006
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP007.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP007.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP007.out
+
+sample = HMDP007
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP008.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP008.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP008.out
+
+sample = HMDP008
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP009.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP009.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP009.out
+
+sample = HMDP009
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP010.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP010.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP010.out
+
+sample = HMDP010
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP011.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP011.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP011.out
+
+sample = HMDP011
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP012.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP012.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP012.out
+
+sample = HMDP012
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP013.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP013.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP013.out
+
+sample = HMDP013
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP014.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP014.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP014.out
+
+sample = HMDP014
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP015.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP015.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP015.out
+
+sample = HMDP015
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP016.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP016.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP016.out
+
+sample = HMDP016
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP017.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP017.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP017.out
+
+sample = HMDP017
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP018.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP018.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP018.out
+
+sample = HMDP018
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP019.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP019.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP019.out
+
+sample = HMDP019
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP020.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP020.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP020.out
+
+sample = HMDP020
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP021.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP021.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP021.out
+
+sample = HMDP021
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP022.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP022.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP022.out
+
+sample = HMDP022
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP023.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP023.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP023.out
+
+sample = HMDP023
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP024.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP024.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP024.out
+
+sample = HMDP024
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP025.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP025.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP025.out
+
+sample = HMDP025
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP026.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP026.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP026.out
+
+sample = HMDP026
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP027.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP027.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP027.out
+
+sample = HMDP027
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP028.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP028.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP028.out
+
+sample = HMDP028
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP029.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP029.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP029.out
+
+sample = HMDP029
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP030.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP030.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP030.out
+
+sample = HMDP030
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP031.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP031.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP031.out
+
+sample = HMDP031
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP032.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP032.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP032.out
+
+sample = HMDP032
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP033.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP033.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP033.out
+
+sample = HMDP033
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP034.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP034.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP034.out
+
+sample = HMDP034
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP035.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP035.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP035.out
+
+sample = HMDP035
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP036.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP036.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP036.out
+
+sample = HMDP036
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP037.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP037.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP037.out
+
+sample = HMDP037
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP038.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP038.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP038.out
+
+sample = HMDP038
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP039.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP039.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP039.out
+
+sample = HMDP039
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP040.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP040.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP040.out
+
+sample = HMDP040
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP041.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP041.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP041.out
+
+sample = HMDP041
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP042.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP042.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP042.out
+
+sample = HMDP042
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP043.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP043.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP043.out
+
+sample = HMDP043
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP044.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP044.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP044.out
+
+sample = HMDP044
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP045.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP045.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP045.out
+
+sample = HMDP045
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP046.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP046.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP046.out
+
+sample = HMDP046
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP047.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP047.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP047.out
+
+sample = HMDP047
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP048.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP048.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP048.out
+
+sample = HMDP048
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP049.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP049.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP049.out
+
+sample = HMDP049
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP050.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP050.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP050.out
+
+sample = HMDP050
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP051.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP051.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP051.out
+
+sample = HMDP051
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP052.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP052.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP052.out
+
+sample = HMDP052
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP053.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP053.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP053.out
+
+sample = HMDP053
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP054.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP054.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP054.out
+
+sample = HMDP054
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP055.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP055.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP055.out
+
+sample = HMDP055
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP056.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP056.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP056.out
+
+sample = HMDP056
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP057.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP057.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP057.out
+
+sample = HMDP057
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP058.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP058.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP058.out
+
+sample = HMDP058
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP059.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP059.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP059.out
+
+sample = HMDP059
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP060.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP060.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP060.out
+
+sample = HMDP060
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP061.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP061.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP061.out
+
+sample = HMDP061
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP062.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP062.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP062.out
+
+sample = HMDP062
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP063.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP063.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP063.out
+
+sample = HMDP063
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP064.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP064.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP064.out
+
+sample = HMDP064
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP065.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP065.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP065.out
+
+sample = HMDP065
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP066.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP066.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP066.out
+
+sample = HMDP066
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP067.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP067.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP067.out
+
+sample = HMDP067
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP068.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP068.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP068.out
+
+sample = HMDP068
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP069.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP069.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP069.out
+
+sample = HMDP069
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP070.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP070.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP070.out
+
+sample = HMDP070
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP071.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP071.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP071.out
+
+sample = HMDP071
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP072.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP072.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP072.out
+
+sample = HMDP072
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP073.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP073.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP073.out
+
+sample = HMDP073
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP074.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP074.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP074.out
+
+sample = HMDP074
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP075.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP075.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP075.out
+
+sample = HMDP075
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP076.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP076.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP076.out
+
+sample = HMDP076
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP077.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP077.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP077.out
+
+sample = HMDP077
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP078.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP078.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP078.out
+
+sample = HMDP078
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP079.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP079.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP079.out
+
+sample = HMDP079
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP080.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP080.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP080.out
+
+sample = HMDP080
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP081.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP081.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP081.out
+
+sample = HMDP081
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP082.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP082.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP082.out
+
+sample = HMDP082
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP083.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP083.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP083.out
+
+sample = HMDP083
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP084.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP084.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP084.out
+
+sample = HMDP084
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP085.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP085.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP085.out
+
+sample = HMDP085
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP086.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP086.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP086.out
+
+sample = HMDP086
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP087.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP087.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP087.out
+
+sample = HMDP087
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP088.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP088.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP088.out
+
+sample = HMDP088
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP089.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP089.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP089.out
+
+sample = HMDP089
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP090.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP090.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP090.out
+
+sample = HMDP090
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP091.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP091.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP091.out
+
+sample = HMDP091
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP092.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP092.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP092.out
+
+sample = HMDP092
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP093.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP093.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP093.out
+
+sample = HMDP093
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP094.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP094.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP094.out
+
+sample = HMDP094
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP095.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP095.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP095.out
+
+sample = HMDP095
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP096.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP096.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP096.out
+
+sample = HMDP096
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP097.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP097.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP097.out
+
+sample = HMDP097
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP098.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP098.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP098.out
+
+sample = HMDP098
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP099.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP099.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP099.out
+
+sample = HMDP099
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP100.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP100.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP100.out
+
+sample = HMDP100
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP101.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP101.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP101.out
+
+sample = HMDP101
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP102.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP102.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP102.out
+
+sample = HMDP102
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP103.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP103.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP103.out
+
+sample = HMDP103
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP104.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP104.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP104.out
+
+sample = HMDP104
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP105.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP105.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP105.out
+
+sample = HMDP105
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP106.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP106.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP106.out
+
+sample = HMDP106
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP107.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP107.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP107.out
+
+sample = HMDP107
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP108.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP108.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP108.out
+
+sample = HMDP108
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP109.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP109.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP109.out
+
+sample = HMDP109
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP110.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP110.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP110.out
+
+sample = HMDP110
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP111.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP111.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP111.out
+
+sample = HMDP111
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP112.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP112.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP112.out
+
+sample = HMDP112
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP113.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP113.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP113.out
+
+sample = HMDP113
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP114.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP114.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP114.out
+
+sample = HMDP114
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP115.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP115.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP115.out
+
+sample = HMDP115
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP116.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP116.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP116.out
+
+sample = HMDP116
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP117.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP117.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP117.out
+
+sample = HMDP117
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP118.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP118.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP118.out
+
+sample = HMDP118
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP119.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP119.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP119.out
+
+sample = HMDP119
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP120.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP120.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP120.out
+
+sample = HMDP120
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP121.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP121.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP121.out
+
+sample = HMDP121
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP122.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP122.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP122.out
+
+sample = HMDP122
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP123.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP123.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP123.out
+
+sample = HMDP123
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP124.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP124.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP124.out
+
+sample = HMDP124
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP125.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP125.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP125.out
+
+sample = HMDP125
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP126.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP126.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP126.out
+
+sample = HMDP126
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP127.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP127.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP127.out
+
+sample = HMDP127
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP128.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP128.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP128.out
+
+sample = HMDP128
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP129.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP129.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP129.out
+
+sample = HMDP129
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP130.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP130.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP130.out
+
+sample = HMDP130
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP131.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP131.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP131.out
+
+sample = HMDP131
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP132.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP132.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP132.out
+
+sample = HMDP132
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP133.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP133.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP133.out
+
+sample = HMDP133
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP134.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP134.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP134.out
+
+sample = HMDP134
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP135.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP135.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP135.out
+
+sample = HMDP135
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP136.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP136.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP136.out
+
+sample = HMDP136
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP137.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP137.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP137.out
+
+sample = HMDP137
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP138.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP138.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP138.out
+
+sample = HMDP138
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP139.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP139.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP139.out
+
+sample = HMDP139
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP140.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP140.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP140.out
+
+sample = HMDP140
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP141.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP141.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP141.out
+
+sample = HMDP141
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP142.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP142.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP142.out
+
+sample = HMDP142
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP143.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP143.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP143.out
+
+sample = HMDP143
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP144.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP144.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP144.out
+
+sample = HMDP144
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP145.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP145.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP145.out
+
+sample = HMDP145
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP146.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP146.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP146.out
+
+sample = HMDP146
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP147.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP147.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP147.out
+
+sample = HMDP147
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP148.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP148.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP148.out
+
+sample = HMDP148
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP149.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP149.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP149.out
+
+sample = HMDP149
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP150.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP150.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP150.out
+
+sample = HMDP150
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP151.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP151.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP151.out
+
+sample = HMDP151
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP152.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP152.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP152.out
+
+sample = HMDP152
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP153.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP153.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP153.out
+
+sample = HMDP153
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP154.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP154.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP154.out
+
+sample = HMDP154
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP155.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP155.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP155.out
+
+sample = HMDP155
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP156.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP156.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP156.out
+
+sample = HMDP156
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP157.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP157.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP157.out
+
+sample = HMDP157
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP158.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP158.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP158.out
+
+sample = HMDP158
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP159.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP159.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP159.out
+
+sample = HMDP159
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP160.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP160.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP160.out
+
+sample = HMDP160
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP161.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP161.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP161.out
+
+sample = HMDP161
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP162.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP162.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP162.out
+
+sample = HMDP162
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP163.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP163.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP163.out
+
+sample = HMDP163
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP164.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP164.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP164.out
+
+sample = HMDP164
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP165.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP165.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP165.out
+
+sample = HMDP165
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP166.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP166.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP166.out
+
+sample = HMDP166
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP167.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP167.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP167.out
+
+sample = HMDP167
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP168.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP168.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP168.out
+
+sample = HMDP168
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP169.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP169.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP169.out
+
+sample = HMDP169
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP170.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP170.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP170.out
+
+sample = HMDP170
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP171.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP171.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP171.out
+
+sample = HMDP171
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP172.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP172.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP172.out
+
+sample = HMDP172
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP174.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP174.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP174.out
+
+sample = HMDP174
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP175.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP175.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP175.out
+
+sample = HMDP175
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP176.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP176.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP176.out
+
+sample = HMDP176
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP177.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP177.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP177.out
+
+sample = HMDP177
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP178.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP178.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP178.out
+
+sample = HMDP178
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP179.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP179.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP179.out
+
+sample = HMDP179
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP180.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP180.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP180.out
+
+sample = HMDP180
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP181.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP181.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP181.out
+
+sample = HMDP181
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP182.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP182.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP182.out
+
+sample = HMDP182
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP183.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP183.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP183.out
+
+sample = HMDP183
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP184.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP184.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP184.out
+
+sample = HMDP184
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP185.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP185.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP185.out
+
+sample = HMDP185
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP186.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP186.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP186.out
+
+sample = HMDP186
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP187.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP187.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP187.out
+
+sample = HMDP187
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP188.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP188.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP188.out
+
+sample = HMDP188
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP189.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP189.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP189.out
+
+sample = HMDP189
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP190.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP190.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP190.out
+
+sample = HMDP190
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP191.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP191.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP191.out
+
+sample = HMDP191
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP192.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP192.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP192.out
+
+sample = HMDP192
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP193.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP193.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP193.out
+
+sample = HMDP193
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP194.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP194.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP194.out
+
+sample = HMDP194
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP195.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP195.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP195.out
+
+sample = HMDP195
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP196.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP196.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP196.out
+
+sample = HMDP196
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP197.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP197.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP197.out
+
+sample = HMDP197
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP198.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP198.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP198.out
+
+sample = HMDP198
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP199.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP199.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP199.out
+
+sample = HMDP199
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP200.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP200.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP200.out
+
+sample = HMDP200
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP201.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP201.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP201.out
+
+sample = HMDP201
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP202.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP202.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP202.out
+
+sample = HMDP202
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP203.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP203.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP203.out
+
+sample = HMDP203
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP204.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP204.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP204.out
+
+sample = HMDP204
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP205.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP205.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP205.out
+
+sample = HMDP205
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP206.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP206.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP206.out
+
+sample = HMDP206
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP207.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP207.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP207.out
+
+sample = HMDP207
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP208.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP208.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP208.out
+
+sample = HMDP208
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP209.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP209.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP209.out
+
+sample = HMDP209
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP210.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP210.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP210.out
+
+sample = HMDP210
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP211.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP211.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP211.out
+
+sample = HMDP211
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP212.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP212.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP212.out
+
+sample = HMDP212
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP213.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP213.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP213.out
+
+sample = HMDP213
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP214.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP214.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP214.out
+
+sample = HMDP214
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP215.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP215.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP215.out
+
+sample = HMDP215
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP216.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP216.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP216.out
+
+sample = HMDP216
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP217.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP217.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP217.out
+
+sample = HMDP217
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP218.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP218.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP218.out
+
+sample = HMDP218
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP219.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP219.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP219.out
+
+sample = HMDP219
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP220.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP220.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP220.out
+
+sample = HMDP220
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP221.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP221.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP221.out
+
+sample = HMDP221
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP222.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP222.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP222.out
+
+sample = HMDP222
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP223.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP223.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP223.out
+
+sample = HMDP223
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP224.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP224.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP224.out
+
+sample = HMDP224
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP225.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP225.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP225.out
+
+sample = HMDP225
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP226.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP226.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP226.out
+
+sample = HMDP226
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP227.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP227.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP227.out
+
+sample = HMDP227
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP228.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP228.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP228.out
+
+sample = HMDP228
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP229.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP229.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP229.out
+
+sample = HMDP229
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP230.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP230.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP230.out
+
+sample = HMDP230
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP231.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP231.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP231.out
+
+sample = HMDP231
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP232.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP232.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP232.out
+
+sample = HMDP232
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP233.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP233.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP233.out
+
+sample = HMDP233
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP234.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP234.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP234.out
+
+sample = HMDP234
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP235.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP235.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP235.out
+
+sample = HMDP235
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP236.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP236.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP236.out
+
+sample = HMDP236
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP237.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP237.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP237.out
+
+sample = HMDP237
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP238.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP238.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP238.out
+
+sample = HMDP238
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP239.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP239.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP239.out
+
+sample = HMDP239
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP240.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP240.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP240.out
+
+sample = HMDP240
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP241.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP241.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP241.out
+
+sample = HMDP241
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP242.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP242.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP242.out
+
+sample = HMDP242
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP243.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP243.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP243.out
+
+sample = HMDP243
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP244.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP244.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP244.out
+
+sample = HMDP244
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP245.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP245.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP245.out
+
+sample = HMDP245
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP246.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP246.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP246.out
+
+sample = HMDP246
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP247.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP247.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP247.out
+
+sample = HMDP247
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP248.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP248.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP248.out
+
+sample = HMDP248
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP249.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP249.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP249.out
+
+sample = HMDP249
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP250.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP250.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP250.out
+
+sample = HMDP250
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP251.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP251.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP251.out
+
+sample = HMDP251
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP252.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP252.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP252.out
+
+sample = HMDP252
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP253.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP253.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP253.out
+
+sample = HMDP253
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP254.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP254.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP254.out
+
+sample = HMDP254
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP255.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP255.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP255.out
+
+sample = HMDP255
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP256.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP256.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP256.out
+
+sample = HMDP256
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP257.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP257.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP257.out
+
+sample = HMDP257
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP258.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP258.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP258.out
+
+sample = HMDP258
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP259.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP259.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP259.out
+
+sample = HMDP259
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP260.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP260.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP260.out
+
+sample = HMDP260
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP261.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP261.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP261.out
+
+sample = HMDP261
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP262.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP262.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP262.out
+
+sample = HMDP262
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP263.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP263.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP263.out
+
+sample = HMDP263
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP264.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP264.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP264.out
+
+sample = HMDP264
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP265.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP265.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP265.out
+
+sample = HMDP265
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP266.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP266.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP266.out
+
+sample = HMDP266
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP267.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP267.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP267.out
+
+sample = HMDP267
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP268.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP268.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP268.out
+
+sample = HMDP268
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP269.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP269.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP269.out
+
+sample = HMDP269
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP270.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP270.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP270.out
+
+sample = HMDP270
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP271.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP271.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP271.out
+
+sample = HMDP271
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP272.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP272.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP272.out
+
+sample = HMDP272
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP273.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP273.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP273.out
+
+sample = HMDP273
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP274.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP274.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP274.out
+
+sample = HMDP274
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP275.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP275.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP275.out
+
+sample = HMDP275
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP276.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP276.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP276.out
+
+sample = HMDP276
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP277.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP277.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP277.out
+
+sample = HMDP277
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP278.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP278.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP278.out
+
+sample = HMDP278
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP279.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP279.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP279.out
+
+sample = HMDP279
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP280.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP280.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP280.out
+
+sample = HMDP280
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP281.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP281.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP281.out
+
+sample = HMDP281
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP282.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP282.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP282.out
+
+sample = HMDP282
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP283.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP283.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP283.out
+
+sample = HMDP283
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP284.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP284.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP284.out
+
+sample = HMDP284
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP285.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP285.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP285.out
+
+sample = HMDP285
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP286.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP286.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP286.out
+
+sample = HMDP286
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP287.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP287.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP287.out
+
+sample = HMDP287
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP288.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP288.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP288.out
+
+sample = HMDP288
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP289.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP289.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP289.out
+
+sample = HMDP289
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP290.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP290.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP290.out
+
+sample = HMDP290
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP291.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP291.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP291.out
+
+sample = HMDP291
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP292.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP292.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP292.out
+
+sample = HMDP292
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP293.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP293.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP293.out
+
+sample = HMDP293
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP294.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP294.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP294.out
+
+sample = HMDP294
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP295.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP295.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP295.out
+
+sample = HMDP295
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP296.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP296.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP296.out
+
+sample = HMDP296
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP297.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP297.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP297.out
+
+sample = HMDP297
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+
+log = JLusis_HMDP/RSEM_DOmetaG/HMDP298.log
+error = JLusis_HMDP/RSEM_DOmetaG/HMDP298.error
+output = JLusis_HMDP/RSEM_DOmetaG/HMDP298.out
+
+sample = HMDP298
+
+request_memory = 16GB
+request_disk = 32GB
+request_cpus = 1
+
+queue
+
+

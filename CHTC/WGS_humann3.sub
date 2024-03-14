@@ -1,0 +1,26 @@
+universe = docker
+
+docker_image = biobakery/humann:3.0.0
+
+executable = WGS_humann3.sh
+arguments = $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 8) && (Target.HasCHTCStaging == true)
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+
+log = WGS_humann3/HMDP100.log
+error = WGS_humann3/HMDP100.error
+output = WGS_humann3/HMDP100.out
+
+sample = HMDP100
+
+request_memory = 64GB
+request_disk = 200GB
+request_cpus = 2
+
+queue

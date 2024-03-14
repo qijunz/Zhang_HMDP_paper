@@ -1,0 +1,43 @@
+universe = vanilla
+
+executable = JLusis_Ath-HMDP_WGS_removeHostReads.sh
+arguments = $(sample)
+
+#REQUIREMENTS:
+
+Requirements = (OpSys == "LINUX") && (OpSysMajorVer == 7) && (Target.HasGluster == true)
+
+transfer_input_files = PROG_instl/bowtie2-2.3.4-linux-x86_64.zip, \
+                       PROG_instl/samtools_1.9.tar.gz, \
+                       PROG_instl/bedtools2-2.28.0.tar.gz, \
+                       PROG_instl/python-3.6.7-packages.tar.gz, \
+                       PROG_instl/python-3.6.7.tar.gz
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+log = JLusis_HMDP/remove_hostDNA/HMDP295.log
+error = JLusis_HMDP/remove_hostDNA/HMDP295.error
+output = JLusis_HMDP/remove_hostDNA/HMDP295.out
+
+sample = HMDP295
+
+request_memory = 16GB
+request_disk = 100GB
+request_cpus = 4
+
+queue
+
+
+log = JLusis_HMDP/remove_hostDNA/HMDP298.log
+error = JLusis_HMDP/remove_hostDNA/HMDP298.error
+output = JLusis_HMDP/remove_hostDNA/HMDP298.out
+
+sample = HMDP298
+
+request_memory = 16GB
+request_disk = 100GB
+request_cpus = 4
+
+queue
+
